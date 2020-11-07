@@ -54,6 +54,11 @@ xkb_symbols "basic" {
     key <AB10> {	[     slash,	question	]	};
 
     key <BKSL> {	[ backslash,         bar	]	};
+    key <CAPS> {	[ Control_L,	Control_l	]	};
+
+    modifier_map Control { <CAPS> };
+    modifier_map Control { <LCTL> };
+    modifier_map Control { <RCTL> };
 };
 
 partial alphanumeric_keys
