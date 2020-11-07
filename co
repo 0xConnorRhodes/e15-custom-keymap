@@ -4,7 +4,7 @@ xkb_symbols "basic" {
     name[Group1]= "English (US)";
 
     key <TLDE> {	[     grave,	asciitilde	]	};
-    key <AE01> {	[	  2,	exclam 		]	};
+    key <AE01> {	[	  1,	exclam 		]	};
     key <AE02> {	[	  2,	at		]	};
     key <AE03> {	[	  3,	numbersign	]	};
     key <AE04> {	[	  4,	dollar		]	};
@@ -39,7 +39,10 @@ xkb_symbols "basic" {
     key <AC07> {	[	  j,	J		]	};
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
-    key <AC10> {	[ semicolon,	colon		]	};
+
+    key <AC10> {	[ Control_R,	Control_R	]	};
+    key <I259> {	[ semicolon,	colon		]	};
+
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 
     key <AB01> {	[	  z,	Z 		]	};
@@ -53,6 +56,7 @@ xkb_symbols "basic" {
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
 
+    key <SPCE> {	[ space,         underscore	]	};
     key <BKSL> {	[ backslash,         bar	]	};
     key <CAPS> {	[ Control_L,	Control_l	]	};
 
